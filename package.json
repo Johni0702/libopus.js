@@ -1,0 +1,46 @@
+{
+  "name": "libopus.js",
+  "version": "0.0.1",
+  "description": "libopus compiled to JavaScript using emscripten",
+  "homepage": "https://github.com/johni0702/libopus.js",
+  "author": "Jonas Herzig <me@johni0702.de>",
+  "contributors": [
+    "Chris Rudmin"
+  ],
+  "keywords": [
+    "libopus",
+    "Opus",
+    "PCM",
+    "Decoder",
+    "Encoder",
+    "Audio"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "files": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/johni0702/libopus.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/johni0702/libopus.js/issues",
+    "email": "me@johni0702.de"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "files": [
+    "index.js",
+    "lib/encoder.js",
+    "lib/decoder.js",
+    "lib/utils.js",
+    "build/libopus.js"
+  ],
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "extend": "^3.0.0"
+  }
+}
